@@ -24,7 +24,7 @@ if response.ok:
             src_value = img_tag.get('src')
             img_links.append(src_value)
 
-    with open('Stan.csv', mode='w', newline='') as csv_file:
+    with open('BenitoNelson.csv', mode='w', newline='') as csv_file:
         writer = csv.writer(csv_file)
 
         writer.writerow(['Titles'])  
